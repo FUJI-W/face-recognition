@@ -34,26 +34,3 @@ Python implement of face recognition methods: 1. Eigenface; 2. Fisherface; 3. LB
 
 ------
 
-## 单项实验
-
-### Eigenface
-
-> 图像尺寸：`(64,64)`
-
-|         | 平均脸                                                       | 特征脸                                                       | 特征脸                                                       | 特征脸                                                       | 特征脸                                                       |
-| ------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| faces94 | ![eigen_mean](Results.assets/eigen_mean-165208075584118.jpg) | ![eigen_face0](Results.assets/eigen_face0-165208074064114.jpg) | ![eigen_face1](Results.assets/eigen_face1-165208074465615.jpg) | ![eigen_face2](Results.assets/eigen_face2-165208074751616.jpg) | ![eigen_face3](Results.assets/eigen_face3-165208075001917.jpg) |
-| faces95 | ![eigen_mean](Results.assets/eigen_mean-16520804572289.jpg)  | ![eigen_face0](Results.assets/eigen_face0-165208046299910.jpg) | ![eigen_face1](Results.assets/eigen_face1-165208046704211.jpg) | ![eigen_face2](Results.assets/eigen_face2-165208047056712.jpg) | ![eigen_face3](Results.assets/eigen_face3-165208047328613.jpg) |
-| faces96 | ![eigen_mean](Results.assets/eigen_mean-16520804452468.jpg)  | ![eigen_face0](Results.assets/eigen_face0-16520803012583.jpg) | ![eigen_face1](Results.assets/eigen_face1-16520803069384.jpg) | ![eigen_face2](Results.assets/eigen_face2-16520803093875.jpg) | ![eigen_face3](Results.assets/eigen_face3-16520803118366.jpg) |
-| grimace | ![eigen_mean](Results.assets/eigen_mean-16520801357751.jpg)  | ![eigen_face0](Results.assets/eigen_face0.jpg)               | ![eigen_face1](Results.assets/eigen_face1.jpg)               | ![eigen_face2](Results.assets/eigen_face2.jpg)               | ![eigen_face3](Results.assets/eigen_face3.jpg)               |
-
-### Fisher
-
-> 图像尺寸：`(64,64)`
-
-|         | 平均脸                                                       | 特征脸                                                       | 特征脸                                                       | 特征脸                                                       | 特征脸                                                       |
-| ------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| faces94 | ![mean_face_64x64](Results.assets/mean_face_64x64-165210641982645.jpg) | ![fisher_face_64x64_0](Results.assets/fisher_face_64x64_0-165210640348041.jpg) | ![fisher_face_64x64_1](Results.assets/fisher_face_64x64_1-165210640587642.jpg) | ![fisher_face_64x64_2](Results.assets/fisher_face_64x64_2-165210641141543.jpg) | ![fisher_face_64x64_3](Results.assets/fisher_face_64x64_3-165210641587944.jpg) |
-| faces95 | ![mean_face_64x64](Results.assets/mean_face_64x64-165210630894140.jpg) | ![fisher_face_64x64_0](Results.assets/fisher_face_64x64_0-165210626204136.jpg) | ![fisher_face_64x64_1](Results.assets/fisher_face_64x64_1-165210626486337.jpg) | ![fisher_face_64x64_2](Results.assets/fisher_face_64x64_2-165210626761938.jpg) | ![fisher_face_64x64_3](Results.assets/fisher_face_64x64_3-165210626983139.jpg) |
-| faces96 | ![mean_face_64x64](Results.assets/mean_face_64x64-165210607288031.jpg) | ![fisher_face_64x64_0](Results.assets/fisher_face_64x64_0-165210609212232.jpg) | ![fisher_face_64x64_1](Results.assets/fisher_face_64x64_1-165210610180633.jpg) | ![fisher_face_64x64_2](Results.assets/fisher_face_64x64_2-165210610387234.jpg) | ![fisher_face_64x64_3](Results.assets/fisher_face_64x64_3-165210610645835.jpg) |
-| grimace | ![mean_face_64x64](Results.assets/mean_face_64x64.jpg)       | ![fisher_face_64x64_0](Results.assets/fisher_face_64x64_0.jpg) | ![fisher_face_64x64_1](Results.assets/fisher_face_64x64_1.jpg) | ![fisher_face_64x64_2](Results.assets/fisher_face_64x64_2.jpg) | ![fisher_face_64x64_3](Results.assets/fisher_face_64x64_3.jpg) |
